@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Happy Learning!</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Happy Learning!</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li cl ass="nav__item">
+                            <a href="#place" class="nav__link">Register/Login</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle"></span>
+                        <h1 class="home__data-title">Welcome to Explore  <br> <b>New<br> Languages</b></h1>
+                        <a href="game/index.html" class="button">Game</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">2 Best Trending Language</span>
+                            <a href="#place" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="https://static.vecteezy.com/ti/gratis-vektor/t2/1937590-online-bildung-anwendung-lernen-weltweit-auf-computer-mobile-website-hintergrund-soziale-distanz-konzept-das-klassenzimmer-schulungskurs-bibliothek-illustration-wohnung-vektor.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information <br> About Happy Learning</h2>
+                        <p class="about__description">
+                            <br>
+                            <br>🌐 Polyglot Proficiency: Our app bridges the gap between technical and normal language, equipping you to speak the language of machines and humans alike.
+<br>
+<br>
+                            🗣️ Linguistic Equilibrium: Discover the perfect balance between mastering technical terminologies and expressing yourself fluently in diverse cultures.
+<br>
+<br>
+                            🖥️ Bilingual Code: Unlock the true potential of coding by understanding its language intricacies, while also becoming a skilled communicator across languages.
+<br>
+<br>
+                            🌍 Cultural Fluency: Immerse yourself in languages to not only understand words but also the cultures and contexts they originate from.
+                            <br>
+                            <br>
+                            🧩 Syntax Synthesis: Learn the grammar of programming languages and spoken languages concurrently, enhancing your cognitive flexibility.
+                            <br>
+                            
+                            </p>
+                        </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="https://as1.ftcdn.net/v2/jpg/04/01/82/88/1000_F_401828866_H9fhNotGOOkz1VI7dAJP0V142tpLilDq.jpg" alt="" width="" height="">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="https://e1.pxfuel.com/desktop-wallpaper/343/502/desktop-wallpaper-online-education-application-learning-worldwide-on-computer-mobile-website-background-social-distance-concept-the-classroom-training-course-library-vector-illustration-flat-1937754-vector-art-at-vecteezy.jpg" alt="" width="" height="" >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the <br> multiple Languages</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_88kp_uT4qiYSu-WkGKN5utmflx01Ngc9af6-3915HWJY0kl4Tw89OQNIfHcYTAwsvDI&usqp=CAU" alt="" class="discover__img">
+                            <div class="discover__data">
+                                
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="data:image/jpeg;base64,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" alt="" class="discover__img">
+                            <div class="discover__data">
+                                
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="https://as2.ftcdn.net/v2/jpg/03/05/19/51/1000_F_305195153_WonhgFFhY35bKJQukxY8l0GxRnK3piCC.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </section>
+            
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">12</h2>
+                            <span class="experience__description">Expertise <br> Trainers</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">10+</h2>
+                            <span class="experience__description">Complete <br> Languages</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Trained <br> Students</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="https://img.freepik.com/free-vector/e-learning-icons-flat_1284-3950.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="https://st2.depositphotos.com/1007566/6977/v/450/depositphotos_69775301-stock-illustration-e-learning-design-illustration.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">"Embark on a captivating language learning journey through our immersive video tour, where words come alive and cultures unfold with each lesson."
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Language</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card"><h3>Spoken Language</h3>
+                        <img src="https://www.frederickinterpreting.com/wp-content/uploads/2020/07/Languages-istock-Qvasimodo-20170803.png" alt="" class="place__img">
+                        <a href="http://localhost/Language%20app/spoken/"  button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button></a>
+                       
+                       
+                    </div>
+
+                    <div class="place__card"><h3>Technical Language</h3>
+                        <img src="https://i.etsystatic.com/27690223/r/il/269f46/2924450775/il_fullxfull.2924450775_abtv.jpg" width="400" alt="" class="place__img">
+                        <a href="http://localhost/Language%20app/technical/"  button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button></a>
+                    </div>
+                   
+                    
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Subscribe Our <br> Website</h2>
+                        <p class="subscribe__description">Subscribe to our website and get a 
+                            special 30% discount.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+    
+                            <button class="button">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Happy Learning!</h3>
+                        <p class="footer__description">Happy<br> to Learn 
+                           
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Features</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">New & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 Elites. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
