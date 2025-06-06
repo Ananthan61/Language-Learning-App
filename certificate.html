@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Div Content</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media print{
+    body *:not(#my-section):not(#my-section *){
+        visibility: hidden;
+    }
+    #my-section{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+    </style>
+</head>
+<body>
+   <section>
+    <h1>Congratulation your Certificate Is Ready!!</h1>
+   </section>
+    <section id="my-section">
+        <img src="" alt="Complete the Course" width="1400" height="500" style="align-items: center;">
+
+    </section>
+    <button onclick="window.print()">Download</button>
+</body>
+</html>
